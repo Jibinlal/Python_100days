@@ -74,5 +74,4 @@ split = int(input("How many people to split the bill? "))
 total = bill + (bill* (tip/100))
 overallsplit = total/split
 roundval = round(overallsplit,2)
-
 print(f"Each person should pay: ${roundval}")
